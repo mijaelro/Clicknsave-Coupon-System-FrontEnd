@@ -1,0 +1,14 @@
+.AuthMenu {
+	position: absolute;
+    right:20px;
+    top:20px;
+    font-size: 22px;
+}
+
+.normal {
+    color: #ff00d9bb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+

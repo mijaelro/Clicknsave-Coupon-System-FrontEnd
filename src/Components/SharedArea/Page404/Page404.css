@@ -1,0 +1,9 @@
+.Page404 {
+	display:block;
+    text-align:center;
+    margin:50px;
+}
+
+.Page404>h1{
+    color :red;
+}

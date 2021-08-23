@@ -1,0 +1,19 @@
+#DropDownMenu{
+    height: 10%;
+    border: 1px solid transparent; 
+    position: fixed;
+    left:50%;
+    top:3%;
+} 
+
+.DropDownMenu{
+    height: 20%;
+    position: fixed;
+    left:50%;
+    top:0.5%;
+}
+
+#DropdownItem{
+    color:black
+}
+

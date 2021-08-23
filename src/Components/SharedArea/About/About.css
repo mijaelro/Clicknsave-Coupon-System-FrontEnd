@@ -1,0 +1,32 @@
+.About {
+  text-align: center;
+  width: 600px;
+  border-radius:10px;
+  height: fit-content;
+  display: inline-block;
+  flex-direction: column;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(165, 111, 179, 0.9);
+  white-space: nowrap;
+  margin-left: 25%;
+  margin-bottom:5%;
+  padding:20px;
+  background-color: #16194196;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23141414' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+
+}
+
+.About >span{
+    font-weight: bold;
+}
+
+.About >a{
+    font-weight: bold;
+    color: rgb(71, 40, 71);
+}
+
+.About >ul>li{
+    list-style-type: none;
+    font-weight: bold;
+    color: rgb(138, 91, 138);
+}

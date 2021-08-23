@@ -1,0 +1,11 @@
+.EmptyView {
+	text-align: center;
+    margin:50px;
+    display: inline-block;
+}
+
+.EmptyView>h1{
+    color :red
+}
+
+

@@ -250,7 +250,7 @@ return (
             
                
             </form>
-            <Button><NavLink to="/company/coupons"><i className="tim-icons icon-double-left"></i></NavLink></Button>
+            <NavLink to="/company/coupons"><Button><i className="tim-icons icon-double-left"></i></Button></NavLink>
 
         </>
       )}

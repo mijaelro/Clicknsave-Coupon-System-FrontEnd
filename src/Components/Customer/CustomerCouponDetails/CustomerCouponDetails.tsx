@@ -61,7 +61,7 @@ return (
                       </div>
                 </div>
                 <br />
-            <Button><NavLink to="/customer/coupons"><i className="tim-icons icon-double-left"></i></NavLink></Button>
+           <NavLink to="/customer/coupons"> <Button><i className="tim-icons icon-double-left"></i></Button></NavLink>
         
          </>
       )}

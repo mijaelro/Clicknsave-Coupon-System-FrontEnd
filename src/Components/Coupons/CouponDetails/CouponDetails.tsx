@@ -35,7 +35,7 @@ const  CouponDetails=(props:DetailsProps): JSX.Element =>{
           history.push('/customer/coupons');
           notify.success(SccMsg.PURCHASED_COUPON);
         }catch(err){
-          notify.error(err.message);
+          notify.error(err);
         };
       };
 
@@ -74,7 +74,7 @@ return (
                 </div>
                             <br />
               <Button disabled={disabled} color="simple" onClick={()=>purchase(coupon)}>🛒</Button>
-              <Button><NavLink to="/coupons"><i className="tim-icons icon-double-left"></i></NavLink></Button>
+              <NavLink to="/coupons"><Button><i className="tim-icons icon-double-left"></i></Button></NavLink>
             </>
         )}
     </div>

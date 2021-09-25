@@ -58,7 +58,7 @@ function Login(): JSX.Element {
           };
         }
         catch(err){
-             notify.error(err.message);
+             notify.error(err);
         };
     };
 

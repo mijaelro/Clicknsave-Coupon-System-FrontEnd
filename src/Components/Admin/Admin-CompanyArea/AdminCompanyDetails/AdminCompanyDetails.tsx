@@ -40,7 +40,7 @@ const AdminCompanyDetails=(props:CompanyDetailsProps): JSX.Element=>{
       notify.success(SccMsg.UPDATED_SUCCESS);
       history.push('/admin/companies'); 
       }catch (err) {
-      notify.error(err.message);
+      notify.error(err);
       };
   };
 
@@ -58,7 +58,7 @@ const AdminCompanyDetails=(props:CompanyDetailsProps): JSX.Element=>{
     try { 
       fetchCompany();
     }catch (err) {
-      notify.error(err.message);
+      notify.error(err);
     };
     const unsubscribe = store.subscribe(()=>{
       setCompanies(store.getState().companiesState.companies);   
@@ -77,7 +77,7 @@ const AdminCompanyDetails=(props:CompanyDetailsProps): JSX.Element=>{
         notify.success(SccMsg.DELETED_SUCCESS);
         history.push('/admin/companies');
       }catch (err) {
-       notify.error(err.message);
+       notify.error(err);
       };
     };
   };
@@ -147,7 +147,7 @@ return(
              <Button onClick={() => deleteCompany()}  size="lg"> 🗑️</Button>
             
         </form>
-             <Button><NavLink to="/admin/companies"><i className="tim-icons icon-double-left"></i></NavLink></Button>
+             <NavLink to="/admin/companies"><Button><i className="tim-icons icon-double-left"></i></Button></NavLink>
       </>
     )}
   </div>

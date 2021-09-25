@@ -169,7 +169,7 @@ return (
                 <br />
 
                 <br />
-                <Button color="danger"><NavLink to="/company/coupons">✖️</NavLink></Button>
+               <NavLink to="/company/coupons"> <Button color="danger">✖️</Button></NavLink>
                 <Button color="success" variant="contained" type="submit" disabled={!isDirty || !isValid}> ✔️</Button>
 
         </form>

@@ -32,7 +32,8 @@ function About(): JSX.Element {
                     <li>Purchase (add) Coupon</li>
                 </ul>
 
-                <span><span id="errors">note:</span>everyone can see All coupons at All times <br/> just go to Home and press See All coupons!</span><br /><br />
+                <span><span id="errors">Note : </span>everyone can see All coupons at All times <br/> just go to Home and press See All coupons!</span><br /><br />
+                <span><span id="errors">Note : </span>To see info every time you click on something just scroll down!</span><br /><br />
                 <span>Made by <a href="https://www.linkedin.com/in/mijael-rofe-42a264180/" target="_blank"  rel="noreferrer" >Mijael Rofe</a></span><br />
                       
 

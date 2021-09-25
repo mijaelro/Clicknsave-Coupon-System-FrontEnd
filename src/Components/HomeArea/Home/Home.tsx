@@ -45,7 +45,7 @@ function Home(): JSX.Element {
                     <br />
 
                     <span >Follow the link bellow to se all coupons <br/></span> <br />
-                    <NavLink to="/coupons" exact><Button>See All</Button></NavLink><br /><br />
+                    <NavLink id ="info" to="/coupons" exact><Button>See All</Button></NavLink><br /><br />
                 
                 <div>
 

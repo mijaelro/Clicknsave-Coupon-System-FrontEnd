@@ -1,3 +1,5 @@
+import CouponModel from "./CouponModel";
+
 class CustomerModel{
     public id:number;
     public firstName:string;

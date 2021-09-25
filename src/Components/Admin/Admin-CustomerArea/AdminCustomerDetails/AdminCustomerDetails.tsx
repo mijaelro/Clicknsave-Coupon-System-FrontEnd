@@ -41,7 +41,7 @@ const AdminCustomerDetails =(props:CustomerDetailsProps): JSX.Element=>{
       notify.success(SccMsg.UPDATED_SUCCESS);  
       history.push('/admin/customers'); 
     }catch (err) {
-      notify.error(err.message);
+      notify.error(err);
     };
   };
 
@@ -58,7 +58,7 @@ const AdminCustomerDetails =(props:CustomerDetailsProps): JSX.Element=>{
     try { 
         fetchCustomer();
     }catch (err) {
-        notify.error(err.message);
+        notify.error(err);
     };
       const unsubscribe = store.subscribe(()=>{
         setCustomers(store.getState().customersState.customers);    
@@ -77,7 +77,7 @@ const AdminCustomerDetails =(props:CustomerDetailsProps): JSX.Element=>{
         notify.success(SccMsg.DELETED_SUCCESS);
         history.push('/admin/customers');
       }catch (err) {
-       notify.error(err.message);
+       notify.error(err);
       };
     };
   };
@@ -154,7 +154,7 @@ return(
               <Button  type="submit"  size="lg" disabled={!isDirty || !isValid}>✔️</Button>
               <Button onClick={() => deleteCustomer()}  size="lg"> 🗑️</Button>
        </form>
-              <Button><NavLink to="/admin/customers"><i className="tim-icons icon-double-left"></i></NavLink></Button>
+             <NavLink to="/admin/customers"> <Button><i className="tim-icons icon-double-left"></i></Button></NavLink>
 
       </>
     )}

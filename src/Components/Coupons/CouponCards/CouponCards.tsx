@@ -37,7 +37,7 @@ const CouponCards = ():JSX.Element=>{
         fetchCoupons();
       }
       catch(err){
-        notify.error(err.message);
+        notify.error(err);
       };
     const unsubscribe = store.subscribe(() => {
       setCount(store.getState().couponsStartState.coupons.length);

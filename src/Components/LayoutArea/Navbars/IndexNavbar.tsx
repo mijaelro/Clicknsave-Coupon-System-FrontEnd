@@ -151,11 +151,13 @@ return (
                   <DropdownItem id="DropdownItem" tag={Link}  to = "/company/coupons" exact="true">Company-Coupons</DropdownItem>   
                   <DropdownItem id="DropdownItem" tag={Link}  to = "/home" exact="true">Home</DropdownItem>
                   <DropdownItem id="DropdownItem" tag={Link} to = "/about" exact="true">About</DropdownItem>
+                  <DropdownItem id="DropdownItem" tag={Link} to = "/company/dets" exact="true">Details</DropdownItem>
                 </>
 				      : client.clientType===ClientType.customer ? 
                 <>
                 <DropdownItem id="DropdownItem" tag={Link}  to = "/customer" exact="true">Coupons</DropdownItem>
                 <DropdownItem id="DropdownItem"  tag={Link} to ="/customer/purchase" exact="true">Purchase-coupons</DropdownItem>
+                <DropdownItem id="DropdownItem" tag={Link} to = "/customer/dets" exact="true">Details</DropdownItem>
                 <DropdownItem id="DropdownItem" tag={Link}  to = "/home" exact="true">Home</DropdownItem>
                 <DropdownItem id="DropdownItem" tag={Link} to = "/about" exact="true">About</DropdownItem>
                 </>

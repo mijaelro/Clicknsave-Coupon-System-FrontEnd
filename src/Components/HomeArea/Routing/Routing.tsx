@@ -21,6 +21,8 @@ import AdminCustomerCards from "../../Admin/Admin-CustomerArea/AdminCustomerCard
 import AdminCustomerDetails from "../../Admin/Admin-CustomerArea/AdminCustomerDetails/AdminCustomerDetails";
 import Terms from "../../LayoutArea/Terms/Terms";
 import About from "../../SharedArea/About/About";
+import CompanyDetails from "../../Company/CompanyDetails/CompanyDetails";
+import CustomerDetails from "../../Customer/CustomerDetails/CustomerDetails";
 
 function Routing(): JSX.Element {
  
@@ -54,11 +56,13 @@ function Routing(): JSX.Element {
                 <Route path = '/admin/customers/details/:id' component={AdminCustomerDetails} exact/>
 
                 <Route path = '/company' component={CompanyCouponCards} exact/>
+                <Route path = '/company/dets' component={CompanyDetails} exact/>
                 <Route path = '/company/coupons' component={CompanyCouponCards} exact/>
                 <Route path = '/company/coupons/details/:id' component={CompanyCouponDetails} exact/>
                 <Route path = '/company/addcoupon' component={AddCoupon} exact/>
 
                 <Route path = '/customer' component={CustomerCouponCards} exact/>
+                <Route path = '/customer/dets' component={CustomerDetails} exact/>
                 <Route path = '/customer/coupons' component={CustomerCouponCards} exact/>
                 <Route path = '/customer/coupons/details/:id' component={CustomerCouponDetails} exact/>
                 <Route path = '/customer/purchase' component={CouponCards} exact/>

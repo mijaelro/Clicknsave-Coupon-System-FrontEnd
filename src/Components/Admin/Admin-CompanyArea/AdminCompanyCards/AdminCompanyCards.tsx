@@ -42,7 +42,7 @@ const AdminCompanyCards=():JSX.Element=>{
         fetchCompanies();
       }
     catch(err){
-        notify.error(err.message);
+        notify.error(err);
       };
       const unsubscribe = store.subscribe(() => {
         setCompanies( store.getState().companiesState.companies);
